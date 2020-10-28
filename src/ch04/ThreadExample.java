@@ -10,7 +10,7 @@ public class ThreadExample {
         });
         thead.start();
         //위의 코드를 람다식을 이용해서 변환한 코드
-        Thread thread1=new Thread(()->System.out.println("Helloworld"))0;
+        Thread thread1=new Thread(()->System.out.println("Helloworld"));
         thread1.start();
 
     }
